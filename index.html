@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Área Premium 18+</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0b0b0b;
+    color:#fff;
+}
+
+header{
+    text-align:center;
+    padding:20px;
+    background:#111;
+    border-bottom:1px solid #222;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#ff004f;
+}
+
+.subtitle{
+    color:#999;
+    margin-top:5px;
+}
+
+.container{
+    max-width:500px;
+    margin:20px auto;
+    padding:15px;
+}
+
+.card{
+    background:#161616;
+    border-radius:18px;
+    overflow:hidden;
+    margin-bottom:25px;
+    border:1px solid #292929;
+    box-shadow:0 0 15px rgba(0,0,0,.5);
+}
+
+.preview{
+    position:relative;
+    height:420px;
+    overflow:hidden;
+}
+
+.preview img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    filter:blur(20px) brightness(0.7);
+    transform:scale(1.2);
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        to bottom,
+        rgba(0,0,0,.2),
+        rgba(0,0,0,.6)
+    );
+}
+
+.live{
+    position:absolute;
+    top:15px;
+    left:15px;
+    background:#ff0000;
+    color:white;
+    padding:6px 12px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:bold;
+    z-index:2;
+}
+
+.viewers{
+    position:absolute;
+    top:15px;
+    right:15px;
+    background:rgba(0,0,0,.6);
+    padding:6px 12px;
+    border-radius:30px;
+    font-size:13px;
+    z-index:2;
+}
+
+.lock{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    z-index:2;
+}
+
+.lock-icon{
+    font-size:70px;
+}
+
+.lock-text{
+    margin-top:10px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.info{
+    padding:20px;
+}
+
+.name{
+    font-size:22px;
+    font-weight:bold;
+}
+
+.status{
+    color:#aaa;
+    margin-top:5px;
+}
+
+.btn{
+    display:block;
+    width:100%;
+    margin-top:15px;
+    text-align:center;
+    background:#ff004f;
+    color:white;
+    text-decoration:none;
+    padding:14px;
+    border-radius:12px;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.btn:hover{
+    opacity:.9;
+}
+
+.warning{
+    text-align:center;
+    color:#777;
+    margin:20px;
+    font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🔞 PRIVATE LIVE</div>
+    <div class="subtitle">Conteúdo exclusivo para maiores de 18 anos</div>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <div class="preview">
+
+            <span class="live">🔴 LIVE</span>
+            <span class="viewers">👁 2.3K</span>
+
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800" alt="">
+
+            <div class="overlay"></div>
+
+            <div class="lock">
+                <div class="lock-icon">🔒</div>
+                <div class="lock-text">CONTEÚDO BLOQUEADO</div>
+            </div>
+
+        </div>
+
+        <div class="info">
+            <div class="name">Sofia • 22 anos</div>
+            <div class="status">Transmitindo ao vivo agora</div>
+
+            <a href="#" class="btn">
+                ACESSAR CONTEÚDO
+            </a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="preview">
+
+            <span class="live">🔴 LIVE</span>
+            <span class="viewers">👁 1.8K</span>
+
+            <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=800" alt="">
+
+            <div class="overlay"></div>
+
+            <div class="lock">
+                <div class="lock-icon">🔒</div>
+                <div class="lock-text">CONTEÚDO BLOQUEADO</div>
+            </div>
+
+        </div>
+
+        <div class="info">
+            <div class="name">Luna • 19 anos</div>
+            <div class="status">Conteúdo exclusivo para assinantes</div>
+
+            <a href="#" class="btn">
+                ACESSAR CONTEÚDO
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<div class="warning">
+    Apenas para maiores de 18 anos.
+</div>
+
+</body>
+</html>
